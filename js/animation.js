@@ -210,7 +210,7 @@ const playAnimation = (animation, reverseAnimation) => {
 
 const playClosingAnimation = (reverseAnimation) => {
     console.log('yeah')
-    tlBtn.innerHTML = 'About'
+    tlBtn.innerHTML = 'Credential'
     trBtn.innerHTML = 'Experience'
     blBtn.innerHTML = 'Projects'
     brBtn.innerHTML = 'Contact'
@@ -260,7 +260,7 @@ tlBtn.onclick = () => {
 
         //Setting active corner
         activeCorner = 'top-left'
-        tlBtn.innerHTML = '&uarr;<br />About'
+        tlBtn.innerHTML = '&uarr;<br />Credential'
         handleWindowResize()
         playAnimation('animate-top-left', 'reverse-animate-top-left')
         
@@ -288,7 +288,7 @@ trBtn.onclick = () => {
     if (activeCorner === 'top-right') {
         playClosingAnimation('reverse-animate-top-right')
     } else {
-        tlBtn.innerHTML = 'About'
+        tlBtn.innerHTML = 'Credential'
         blBtn.innerHTML = 'Projects'
         brBtn.innerHTML = 'Contact'
 
@@ -322,7 +322,7 @@ blBtn.onclick = () => {
     if (activeCorner === 'bottom-left') {
         playClosingAnimation('reverse-animate-bottom-left')
     } else {
-        tlBtn.innerHTML = 'About'
+        tlBtn.innerHTML = 'Credential'
         trBtn.innerHTML = 'Experience'
         brBtn.innerHTML = 'Contact'
 
@@ -357,7 +357,7 @@ brBtn.onclick = () => {
     if (activeCorner === 'bottom-right') {
         playClosingAnimation('reverse-animate-bottom-right')
     } else {
-        tlBtn.innerHTML = 'About'
+        tlBtn.innerHTML = 'Credential'
         trBtn.innerHTML = 'Experience'
         blBtn.innerHTML = 'Projects'
 

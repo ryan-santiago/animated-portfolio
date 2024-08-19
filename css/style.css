@@ -163,6 +163,7 @@ article h2, article p {
     color: var(--text);
     text-align: left;
     margin: 0 1rem;
+    font-size: 0.8rem;
 }
 
 /* Top Right Corner */
